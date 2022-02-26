@@ -37,16 +37,16 @@
 
 <script>
     var weekday = new Array(7);
-    weekday[0] = "sonntag";
-    weekday[1] = "montag";
-    weekday[2] = "dienstag";
-    weekday[3] = "mittwoch";
-    weekday[4] = "donnerstag";
-    weekday[5] = "freitag";
-    weekday[6] = "samstag";
+    weekday[0] = "Sonntag";
+    weekday[1] = "Montag";
+    weekday[2] = "Dienstag";
+    weekday[3] = "Mittwoch";
+    weekday[4] = "Donnerstag";
+    weekday[5] = "Freitag";
+    weekday[6] = "Samstag";
 
-    const monthNames = ["januar", "februar", "märz", "april", "mai", "juni",
-      "juli", "august", "september", "oktober", "november", "dezember"
+    const monthNames = ["Januar", "Februar", "März", "April", "Mai", "Juni",
+      "Juli", "August", "September", "Oktober", "November", "Dezember"
     ];
 
     
@@ -58,11 +58,11 @@
     var greet;
 
     if (hrs < 12)
-        greet = 'guten morgen, lisa  ';
+        greet = 'Guten Morgen, Lisa  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'guten tag, lisa ';
+        greet = 'Guten Tag, Lisa ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'gute nacht, lisa  ';
+        greet = 'Gute Nacht, Lisa  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
